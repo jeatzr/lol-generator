@@ -42,9 +42,6 @@ newJokeButton.addEventListener("click", async () => {
   } catch (error) {
     resultContainer.style.display = "none"
     errorContainer.style.display = "block"
-    errorContainer.innerHTML = ""
-    errorContainer.innerHTML += `<p>Something went wrong with the connnection, it's no joke :(</p>`
-    errorContainer.innerHTML += `<img src = "img/sad-pikachu.gif" alt="no joke :("/>`
   }
 
 
